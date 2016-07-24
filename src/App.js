@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
+import logo from './images/logo.svg';
 import _ from 'lodash';
+
+import compokedexEntry from './CompokedexEntry';
+
 import './App.css';
 
 /**
@@ -21,6 +24,7 @@ class App extends Component {
     this.state = {
       compokemon: [{
         type: 'Michellareon',
+        currentHp: 200,
       }],
     };
   }
@@ -43,7 +47,7 @@ class App extends Component {
 
           <h2>Compokedex</h2>
           <p>Gotta catch 'em all</p>
-          {_.map(ALL_COMPOKEMON, (compokemon, key) => this.createCompokemon(compokemon, {key}))}
+          {_.map(ALL_COMPOKEMON, (compokemon, key) => this.createCompokemon(compokedexEntry(compokemon), {key}))}
         </div>
       </div>
     );
