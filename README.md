@@ -6,7 +6,7 @@
 
 If you're using OS X or Windows, the best way to install Node.js is to use one of the installers from the [Node.js download page](https://nodejs.org/en/download/). If you are using OS X and have Homebrew installed, simply run `brew install node`. If you're using Linux, you can use the installer on the downloads page, or install via a [package manager](https://nodejs.org/en/download/package-manager/).
 
-Sanity check: Run `node -v`. The version should be higher than `v0.10.32`.
+Sanity check: Run `node -v`. The version should be higher than `v4.0.0`.
 
 ### Clone this repository
 
