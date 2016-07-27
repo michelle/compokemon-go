@@ -36,7 +36,7 @@ compokemon-go/
   src/
     compokemon/
       (this is where your Compokemon will go!)
-      Michellareon.js
+      Buloom.js
         (this is a sample)
     components/
       (this is where our non-Compokemon components will go!)
