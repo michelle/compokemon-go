@@ -29,7 +29,7 @@ class App extends Component {
           currentHp: 200,
         },
         {
-          name: 'CSS iz cool',
+          name: 'NeedMoreBuloomCandy',
           type: 'Buloom',
           currentHp: 9000,
         },
