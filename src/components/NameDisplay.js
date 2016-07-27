@@ -5,7 +5,7 @@ import './NameDisplay.css';
 class NameDisplay extends React.Component {
   render() {
     return (
-      <div className="NameDisplay">
+      <div style={{background: 'red'}} className="NameDisplay">
         {this.props.name || this.props.type}
       </div>
     );

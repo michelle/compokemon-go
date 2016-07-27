@@ -23,6 +23,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      compokemonToCatch: '',
       compokemon: [
         {
           type: 'Buloom',
@@ -44,7 +45,8 @@ class App extends Component {
     return _.some(this.state.compokemon, (c) => c.type === name);
   }
 
-  handleCaught = (type) => {
+  handleCaught = () => {
+    const type = this.state.compokemonToCatch;
     // Add our new compokemon to our list!
     this.setState({
       compokemon: [
@@ -80,6 +82,10 @@ class App extends Component {
     this.forceUpdate();
   }
 
+  handleOnChange = (event) => {
+    this.setState({compokemonToCatch: event.target.value});
+  }
+
   render() {
     return (
       <div className="App">
@@ -101,7 +107,7 @@ class App extends Component {
             })
           : 'You haven\'t caught anything yet!'}
 
-          <CatchCompokemon onCaught={this.handleCaught} />
+          <CatchCompokemon value={this.state.compokemonToCatch} onCaught={this.handleCaught} onChange={this.handleOnChange} />
 
           <h2>Compokedex</h2>
           <p>Gotta catch 'em all</p>

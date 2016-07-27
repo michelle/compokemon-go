@@ -6,7 +6,12 @@ import './CatchCompokemon.css';
 // Once the button is clicked, `onCaught` should be called with the type.
 class CatchCompokemon extends React.Component {
   render() {
-    return null;
+    return (
+      <div className="CatchCompokemon">
+        <input value={this.props.value} onChange={this.props.onChange} />
+        <button onClick={this.props.onCaught}>Catch</button>
+      </div>
+    );
   }
 }
 
