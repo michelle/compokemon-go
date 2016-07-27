@@ -40,6 +40,8 @@ compokemon-go/
         (this is a sample)
     components/
       (this is where our non-Compokemon components will go!)
+    images/
+      (put any images you want to use here!)
 
     Compokemon.js
       (this is a “higher order component” for Compokemon)
