@@ -1,12 +1,12 @@
 import React from 'react';
 import compokemon from '../Compokemon';
 import './Xian.css';
-import myImage from '../images/michellareon.png';
+import myImage from '../images/pikachu.png';
 
 class Xian extends React.Component {
   render() {
     return (
-      <div className="Buloom">
+      <div className="Xian">
         Hello Xian
         <img src={myImage} width="130" />
       </div>
