@@ -1,13 +1,13 @@
 import React from 'react';
 import compokemon from '../Compokemon';
 import './pikachutwo.css';
-import myImage from '../images/michellareon.png';
+import myImage from '../images/Meyameya.png';
 
 class Pikachu extends React.Component {
   render() {
     return (
       <div className="Pikachu">
-        Pika-chu!
+        Meya Meya!
         <img src={myImage} width="130" />
       </div>
     );
