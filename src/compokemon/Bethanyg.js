@@ -1,7 +1,7 @@
 import React from 'react';
 import compokemon from '../Compokemon';
 import './Bethanyg.css';
-import bethanyg from '../images/Bethanyg.png';
+import bethanyg from '../images/eevee.png';
 
 class Bethanyg extends React.Component {
   render() {
