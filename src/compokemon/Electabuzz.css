@@ -1,0 +1,11 @@
+.Electabuzz .StripeLogo {
+  position: absolute;
+  top: 10px;
+  left: 35px;
+}
+
+.Electabuzz .Electabuzz {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
