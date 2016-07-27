@@ -1,7 +1,12 @@
-.Compokemon {
+.Compokemon-inner {
+  position: relative;
   width: 200px;
   height: 200px;
-  display: inline-block;
   border: 2px solid #ccc;
+  margin: 5px;
   border-radius: 100px;
+}
+
+.Compokemon {
+  display: inline-block;
 }

@@ -1,0 +1,11 @@
+.Bulbastripe .StripeLogo {
+  position: absolute;
+  top: 10px;
+  left: 35px;
+}
+
+.Bulbastripe .Bulbasaur {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}

@@ -4,7 +4,11 @@ import './NameDisplay.css';
 
 class NameDisplay extends React.Component {
   render() {
-    return null;
+    return (
+      <div className="NameDisplay">
+        {this.props.name || this.props.type}
+      </div>
+    );
   }
 }
 

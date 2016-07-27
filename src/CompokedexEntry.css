@@ -1,4 +1,10 @@
 .CompokedexEntry {
+  display: inline-block;
   opacity: 0.3;
   filter: grayscale(100%);
+}
+
+.CompokedexEntry.is-obtained {
+  opacity: 1;
+  filter: none;
 }
